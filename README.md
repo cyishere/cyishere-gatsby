@@ -7,7 +7,7 @@ This is the code of my personal website [cyishere](https://cyishere.github.io).
 path: post/<slug>
 title: 
 date: 
-hero: 
+hero: <picName>
 tags: [""]
 ---
 ```
