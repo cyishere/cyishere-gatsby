@@ -3,7 +3,7 @@ path: post/use-ffmpeg-to-extract-subtitles-from-videos
 title: 使用ffmpeg提取视频中的字幕
 date: 2020-01-24
 hero: ffmpeg.png
-tags: ["字幕"]
+tags: ["字幕", "工具"]
 ---
 
 使用下面这行代码可以提取视频中的「软字幕」。「软字幕」对应的是「硬字幕」，后者是像水印一样打在画面上的，前者是可以通过播放器控制是否显示的。

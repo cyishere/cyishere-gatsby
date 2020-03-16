@@ -28,6 +28,8 @@ const About = ({ data }) => {
                         <li>Film Reviews: on <a href="https://www.youtube.com/watch?v=CiU3VVSK4V4&list=PLjjc192rmd7dWH69KThUEeVFOKX5pnnky">Youtube</a>, on <a href="https://space.bilibili.com/88447273/favlist?fid=106452973&ftype=create">Bilibili</a></li>
                         <li>Why These Films Are Good: on <a href="https://www.youtube.com/watch?v=4qMwCyt8-xI&list=PLjjc192rmd7era1Ks0q06D2CptNzwRRVV">Youtube</a>, on <a href="https://space.bilibili.com/88447273/favlist?fid=474591573&ftype=create">Bilibili</a></li>
                     </ul>
+                    <hr />
+                    <p>Feel free to contact me: cyishere[at]gmail.com.</p>
                 </div>
             </div>
         </Layout>

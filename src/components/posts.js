@@ -5,7 +5,7 @@ const PostsList = () => {
     return (
         <StaticQuery
             query={graphql`
-                query First10Posts {
+                query First5Posts {
                     allMarkdownRemark(
                         sort: {fields: frontmatter___date, order: DESC}
                         limit: 5

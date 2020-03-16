@@ -3,7 +3,7 @@ path: post/productivity-tools
 title: 效率工具
 date: 2020-02-04
 hero: business-productivity-tools.png
-tags: ["效率"]
+tags: ["工具"]
 ---
 
 - [pyTranscriber](https://github.com/raryelcostasouza/pyTranscriber/)：开源、免费的自动生成字幕软件，支持多国语言；
