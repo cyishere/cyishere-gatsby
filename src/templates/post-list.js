@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
 import Layout from './layout';
 
 export const query = graphql`
   query PostsList($skip: Int!, $limit: Int!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     allMarkdownRemark(
       limit: $limit
       skip: $skip
@@ -28,6 +34,9 @@ const PostList = ({ data, pageContext }) => {
   const { currentPage, pagesNum } = pageContext;
   return(
     <Layout>
+      <Helmet>
+        <title>All Posts | {data.site.siteMetadata.title}</title>
+      </Helmet>
       <div className="uk-width-1-1 uk-width-2-3@m uk-width-2-3@l uk-width-2-3@xl uk-align-center">
         {data.allMarkdownRemark.edges.map(({ node }, index) => (
           <div className="uk-card uk-background-default uk-margin-bottom uk-grid" key={index}>

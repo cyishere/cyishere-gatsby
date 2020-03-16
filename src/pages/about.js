@@ -1,9 +1,24 @@
 import React from 'react';
+import { graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
 import Layout from '../templates/layout';
 
-const About = () => {
+export const query = graphql`
+    query {
+        site {
+            siteMetadata {
+                title
+            }
+        }
+    }
+`;
+
+const About = ({ data }) => {
     return (
         <Layout>
+            <Helmet>
+                <title>About | {data.site.siteMetadata.title}</title>
+            </Helmet>
             <div className="uk-container uk-width-2-3@l uk-width-2-3@xl uk-align-center uk-margin-large">
                 <div className="uk-article">
                     <h2 className="uk-article-title uk-margin-large">About</h2>
