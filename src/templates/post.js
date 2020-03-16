@@ -26,8 +26,6 @@ export const query = graphql`
 const PostPage = ({ data, pageContext }) => {
     const post = data.markdownRemark;
     const tags = post.frontmatter.tags;
-    console.log(pageContext);
-    
     const { prev, next } = pageContext;
 
     return (
@@ -36,7 +34,7 @@ const PostPage = ({ data, pageContext }) => {
                 <title>{post.frontmatter.title} | {data.site.siteMetadata.title}</title>
             </Helmet>
             <div className="uk-width-1-1 uk-margin-bottom">
-                <img className="uk-align-center" src={`../${post.frontmatter.hero}`} alt={post.frontmatter.title} />
+                <img className="uk-align-center" src={post.frontmatter.hero} alt={post.frontmatter.title} />
             </div>
             <div className="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-3-4 uk-align-center uk-margin-large-bottom">
                 <div className="uk-article">

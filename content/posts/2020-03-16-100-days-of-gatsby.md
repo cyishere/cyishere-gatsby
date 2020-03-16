@@ -1,8 +1,8 @@
 ---
-path: "post/100-days-of-gatsby"
+path: post/100-days-of-gatsby
 title: "#100DaysOfGatsby Challenge"
-date: "2020-03-16"
-hero: "../images/100daysofgatsby.png"
+date: 2020-03-16
+hero: ../../images/100daysofgatsby.png
 tags: ["learning-to-code", "gatsby"]
 ---
 

@@ -1,8 +1,8 @@
 ---
-path: "post/old-film-ai-nu"
-title: "老片拾趣之《爱奴》"
-date: "2017-05-28"
-hero: "../images/an04.jpg"
+path: post/old-film-ai-nu
+title: 老片拾趣之《爱奴》
+date: 2017-05-28
+hero: ../../images/an04.jpg
 tags: ["电影", "香港电影"]
 ---
 

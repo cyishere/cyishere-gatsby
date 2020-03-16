@@ -1,8 +1,8 @@
 ---
-path: "post/how-to-do-feminist-media-analysis-star-trek-edition"
-title: "【译】如何对媒体做女性主义分析：《星际迷航》版"
-date: "2020-01-24"
-hero: "https://i0.wp.com/www.womenatwarp.com/wp-content/uploads/2016/01/vinatv.jpg?resize=768%2C403&ssl=1"
+path: post/how-to-do-feminist-media-analysis-star-trek-edition
+title: 【译】如何对媒体做女性主义分析：《星际迷航》版
+date: 2020-01-24
+hero: ../../images/star-trek-feminist.jpg
 tags: ["女性主义", "星际迷航", "贝克德尔-华莱士测试", "流行文化"]
 ---
 

@@ -16,6 +16,7 @@ export const query = graphql`
             hero
             path
             title
+            tags
           }
         }
       }
@@ -28,8 +29,8 @@ const PostList = ({ data, pageContext }) => {
   return(
     <Layout>
       <div className="uk-width-1-1 uk-width-2-3@m uk-width-2-3@l uk-width-2-3@xl uk-align-center">
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div className="uk-card uk-background-default uk-margin-bottom uk-grid" key={node.id}>
+        {data.allMarkdownRemark.edges.map(({ node }, index) => (
+          <div className="uk-card uk-background-default uk-margin-bottom uk-grid" key={index}>
             <div className="uk-card-media-left uk-width-1-1 uk-width-1-3@m uk-width-1-3@l uk-width-1-3@xl uk-cover-container">
               <Link to={`/${node.frontmatter.path}`}>
                 <img src={node.frontmatter.hero} alt={node.frontmatter.title} data-uk-cover />
@@ -42,6 +43,13 @@ const PostList = ({ data, pageContext }) => {
                   <Link to={`/${node.frontmatter.path}`}>{node.frontmatter.title}</Link>
                 </h2>
                 <p className="uk-text-meta">@ {node.frontmatter.date}</p>
+                <p>
+                  {node.frontmatter.tags.map((tag, i) => {
+                    return(
+                      <span className="uk-label uk-label-success uk-margin-small-right" key={i}>{tag}</span>
+                    )
+                  })}
+                </p>
               </div>
             </div>
           </div>

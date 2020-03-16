@@ -1,8 +1,8 @@
 ---
-path: "post/supergirl-is-good-for-girls"
-title: "《Supergirl》是部称职的热血少女偶像剧"
-date: "2017-05-22"
-hero: "../images/sq1.jpg"
+path: post/supergirl-is-good-for-girls
+title: 《Supergirl》是部称职的热血少女偶像剧
+date: 2017-05-22
+hero: ../../images/sq1.jpg
 tags: ["美剧", "超级英雄", "女性主义"]
 ---
 

@@ -1,8 +1,8 @@
 ---
-path: "post/productivity-tools"
-title: "效率工具"
-date: "2020-02-04"
-hero: "https://www.tytonmedia.com/wp-content/uploads/business-productivity-tools.png"
+path: post/productivity-tools
+title: 效率工具
+date: 2020-02-04
+hero: ../../images/business-productivity-tools.png
 tags: ["效率"]
 ---
 

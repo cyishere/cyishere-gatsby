@@ -1,8 +1,8 @@
 ---
-path: "post/use-ffmpeg-to-extract-subtitles-from-videos"
-title: "使用ffmpeg提取视频中的字幕"
-date: "2020-01-24"
-hero: "../images/ffmpeg.png"
+path: post/use-ffmpeg-to-extract-subtitles-from-videos
+title: 使用ffmpeg提取视频中的字幕
+date: 2020-01-24
+hero: ../../images/ffmpeg.png
 tags: ["字幕"]
 ---
 

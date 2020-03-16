@@ -4,7 +4,7 @@ import Layout from '../templates/layout';
 const About = () => {
     return (
         <Layout>
-            <div className="uk-width-1-1 uk-width-2-3@l uk-width-2-3@xl uk-align-center uk-margin-large">
+            <div className="uk-container uk-width-2-3@l uk-width-2-3@xl uk-align-center uk-margin-large">
                 <div className="uk-article">
                     <h2 className="uk-article-title uk-margin-large">About</h2>
                     <p>cyishere - CY is here - is the web home of full-stack developer CY (Y. Chen). This is where I talk about various web development and films - plus whatever else I currently find interesting.</p>

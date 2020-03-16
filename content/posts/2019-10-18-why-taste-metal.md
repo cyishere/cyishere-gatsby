@@ -1,8 +1,8 @@
 ---
-path: "post/why-taste-metal"
-title: "为什么吃东西会有金属味道"
-date: "2019-10-18"
-hero: "../images/scary-cat.jpg"
+path: post/why-taste-metal
+title: 为什么吃东西会有金属味道
+date: 2019-10-18
+hero: ../../images/scary-cat.jpg
 tags: ["生活"]
 ---
 

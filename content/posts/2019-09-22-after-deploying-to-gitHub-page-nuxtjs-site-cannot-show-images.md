@@ -1,8 +1,8 @@
 ---
-path: "post/after-deploying-to-github-page-nuxtjs-site-cannot-show-images"
-title: "After Deploying to GitHub Page Nuxt.js Site Cannot Show Images"
-date: "2019-09-22"
-hero: "../images/pictures-404.png"
+path: post/after-deploying-to-github-page-nuxtjs-site-cannot-show-images
+title: After Deploying to GitHub Page Nuxt.js Site Cannot Show Images
+date: 2019-09-22
+hero: ../../images/pictures-404.png
 tags: ["Coding", "Nuxt.js"]
 ---
 

@@ -20,9 +20,7 @@ const Index = ({ data }) => {
             <Helmet>
                 <title>{data.site.siteMetadata.title}</title>
             </Helmet>
-            <div className="uk-padding uk-margin">
-                <PostsList />
-            </div>
+            <PostsList />
         </Layout>
     );
 };

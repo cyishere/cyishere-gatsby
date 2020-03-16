@@ -1,8 +1,8 @@
 ---
-path: "post/mr-donkey-is-a-dark-film"
-title: "《驴得水》是部黑色电影"
-date: "2016-10-30"
-hero: "../images/mr-donkey-hero.jpg"
+path: post/mr-donkey-is-a-dark-film
+title: 《驴得水》是部黑色电影
+date: 2016-10-30
+hero: ../../images/mr-donkey-hero.jpg
 tags: ["电影", "中国电影"]
 ---
 
