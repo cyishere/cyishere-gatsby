@@ -88,4 +88,4 @@ In true Star Trek fashion，制片人们以强调珍妮薇舰长的女性气质�
 但是，不管他们怎么做，有一件事很清楚：CBS的执行制作人们可以纠正25年前「航海家号」播出时UPN犯的错误。是时候让《星际迷航》再次讲述珍妮薇的新故事，并重新吸引她的百万粉丝了，把这个角色介绍给新世代的粉丝们，让穆格鲁轻轻松松地领衔主演。
 
 ---
-Tae Phoenix 是来自华盛顿州西雅图的唱作歌手、文化干扰者（culture jammer）及社区活动组织者。她的爱好包括迷恋《星际迷航》和对把车开到自行车道上的司机大吼。你可以通过 @taephoenix 在你的个人数据被卖掉的每一处找到她，或者 [taephoenix.com](http://taephoenix.com/)。她要感谢航海家读书俱乐部的成员在研究和编辑此作品时所提供的帮助，特别是网友 curator 和 Caladeniablue。
+作者 Tae Phoenix 是来自华盛顿州西雅图的唱作歌手、文化干扰者（culture jammer）及社区活动组织者。她的爱好包括迷恋《星际迷航》和对把车开到自行车道上的司机大吼。你可以通过 @taephoenix 在你的个人数据被卖掉的每一处找到她，或者 [taephoenix.com](http://taephoenix.com/)。她要感谢航海家读书俱乐部的成员在研究和编辑此作品时所提供的帮助，特别是网友 curator 和 Caladeniablue。
