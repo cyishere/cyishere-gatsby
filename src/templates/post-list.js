@@ -42,7 +42,7 @@ const PostList = ({ data, pageContext }) => {
           <div className="uk-card uk-background-default uk-margin-bottom uk-grid" key={index}>
             <div className="uk-card-media-left uk-width-1-1 uk-width-1-3@m uk-width-1-3@l uk-width-1-3@xl uk-cover-container">
               <Link to={`/${node.frontmatter.path}`}>
-                <img src={node.frontmatter.hero} alt={node.frontmatter.title} data-uk-cover />
+                <img src={`/images/${node.frontmatter.hero}`} alt={node.frontmatter.title} data-uk-cover />
                 <canvas></canvas>
               </Link>        
             </div>

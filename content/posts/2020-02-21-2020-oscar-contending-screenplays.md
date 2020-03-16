@@ -2,7 +2,7 @@
 path: post/2020-oscar-contending-screenplays
 title: 【转】2020年奥斯卡剧本
 date: 2020-02-21
-hero: ../../images/oscars-2020-predictions.jpg
+hero: oscars-2020-predictions.jpg
 tags: ["电影", "剧本"]
 ---
 

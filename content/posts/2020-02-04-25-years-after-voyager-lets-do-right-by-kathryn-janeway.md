@@ -2,7 +2,7 @@
 path: post/25-years-after-voyager-lets-do-right-by-kathryn-janeway
 title: 【译】25年后再看凯瑟琳·珍妮薇做对了什么
 date: 2020-02-04
-hero: ../../images/kathryn-janeway.jpg
+hero: kathryn-janeway.jpg
 tags: ["女性主义", "星际迷航", "流行文化"]
 ---
 

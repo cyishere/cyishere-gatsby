@@ -2,7 +2,7 @@
 path: post/supergirl-is-good-for-girls
 title: 《Supergirl》是部称职的热血少女偶像剧
 date: 2017-05-22
-hero: ../../images/sq1.jpg
+hero: sq1.jpg
 tags: ["美剧", "超级英雄", "女性主义"]
 ---
 
@@ -16,7 +16,5 @@ tags: ["美剧", "超级英雄", "女性主义"]
 
 当然了，偶像剧自然也少不了盘靓条顺的男性角色来丰富画面。
 
-<div class="post-img-wrapper">
-    <img src="/images/sq2.jpg" alt="Supergirl中的男性角色" class="img-fuild">
-    <p class="uk-text-small uk-text-muted">Supergirl中的男性角色</p>
-</div>
+![Supergirl中的男性角色](/images/sq2.jpg)
+<p class="uk-text-small uk-text-muted">Supergirl中的男性角色</p>

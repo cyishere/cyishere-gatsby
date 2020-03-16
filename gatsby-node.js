@@ -26,10 +26,11 @@ const createSinglePostPage = (createPage, posts) => {
 
     posts.forEach(({ node }, index) => {
         createPage({
-            path: node.frontmatter.path,
+            path: `/${node.frontmatter.path}`,
             component: singlePostPageTemplate,
             context: {
                 pathName: node.frontmatter.path,
+                heroPath: node.frontmatter.hero,
                 prev: index === 0 ? null : posts[index - 1].node,
                 next: index === (posts.length - 1) ? null : posts[index + 1].node
             }
@@ -89,6 +90,7 @@ exports.createPages = async ({ graphql, actions }) => {
                             path
                             tags
                             title
+                            hero
                         }
                     }
                 }
