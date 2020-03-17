@@ -1,8 +1,8 @@
 ---
-path: post/2020-03-17-auto-optimize-images-on-gatsby-site
+path: post/2020-03-17-gatsby-image
 title: "Auto-Optimize Images On MY Gatsby Site"
 date: 2020-03-17
-hero: ../images/auto-optimize-images-on-gatsby-site.jpg
+hero: ../images/gatsby-image.jpg
 tags: ["learning-to-code", "gatsby"]
 ---
 
@@ -93,7 +93,7 @@ Field \"hero\" must not have a selection since type \"String\" has no subfields.
 
 I can't find the right solution for this until I restructured my code as same as in the document. Putting the markdown files in <code>/src/pages/</code> and the images in <code>/src/images/</code>.
 
-```    
+```
 - src/
   - components/
   - pages/
@@ -119,3 +119,8 @@ hero: ../images/pic-of-article1.jpg
 Then the hero image automatically attached to the markdown node and everthing works fine!
 
 I think the right way to do anything is just to follow the documents exactly and change my own habits.
+
+#### Other Reading Materials
+
+- [Add ImageSharp as a field to MarkdownRemark nodes (not frontmatter)](https://stackoverflow.com/questions/54636627/add-imagesharp-as-a-field-to-markdownremark-nodes-not-frontmatter?answertab=votes#tab-top)
+- [Part 5: Adding Thumbnail Images to a Blog List](https://dennytek.com/blog/personal-site-with-gatsby-part-5)
