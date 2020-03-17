@@ -3,7 +3,7 @@ path: post/2020-03-17-gatsby-image
 title: "Auto-Optimize Images On MY Gatsby Site"
 date: 2020-03-17
 hero: ../images/gatsby-image.jpg
-tags: ["learning-to-code", "gatsby"]
+tags: ["learning-to-code", "gatsby-image", "gatsby"]
 ---
 
 ## #100DaysOfGatsby Challenge 3

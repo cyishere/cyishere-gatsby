@@ -63,6 +63,10 @@ h2.uk-card-title {
     border-radius: 3px;
 }
 
+.uk-button, .uk-label {
+    text-transform: none;
+}
+
 blockquote {
     border-left: 0.4rem solid hsla(291, 0%, 18%,0.1);
     padding-left: 0.8rem;
