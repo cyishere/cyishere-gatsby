@@ -2,7 +2,7 @@
 path: post/article-and-the-person
 title: 文章与人
 date: 2014-10-11
-hero: writing.jpg
+hero: ../images/writing.jpg
 tags: ["写作"]
 ---
 

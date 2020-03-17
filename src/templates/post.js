@@ -5,22 +5,17 @@ import Layout from './layout';
 import Img from 'gatsby-image';
 
 export const query = graphql`
-    query PostContent($pathName: String!, $heroPath: String!) {
-        file(relativePath: {eq: $heroPath}) {
-            childImageSharp {
-                fluid {
-                    aspectRatio
-                    base64
-                    sizes
-                    src
-                    srcSet
-                }
-            }
-        }
+    query PostContent($pathName: String!) {
         markdownRemark(frontmatter: { path: { eq: $pathName } }) {
             frontmatter {
                 title
-                hero
+                hero {
+                    childImageSharp {
+                        fluid {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
                 date(formatString: "YYYY-MM-DD")
                 path
                 tags
@@ -39,14 +34,14 @@ const PostPage = ({ data, pageContext }) => {
     const post = data.markdownRemark;
     const tags = post.frontmatter.tags;
     const { prev, next } = pageContext;
-    const heroImgFluid = data.file.childImageSharp.fluid;
+    const heroImgFluid = post.frontmatter.hero.childImageSharp.fluid;
     return (
         <Layout>
             <Helmet>
                 <title>{post.frontmatter.title} | {data.site.siteMetadata.title}</title>
             </Helmet>
-            <div className="uk-width-1-1 uk-margin-bottom">
-                <Img fluid={heroImgFluid} />
+            <div className="uk-width-1-1 uk-margin-bottom uk-text-center">
+                <Img fluid={heroImgFluid} alt={post.frontmatter.title} />
             </div>
             <div className="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-3-4 uk-align-center uk-margin-large-bottom">
                 <div className="uk-article">

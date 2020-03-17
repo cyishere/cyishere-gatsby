@@ -2,7 +2,7 @@
 path: post/a-gossip-of-music
 title: 音乐八卦事件
 date: 2014-10-11
-hero: john-lennon-across-the-universe.jpg
+hero: ../images/john-lennon-across-the-universe.jpg
 tags: ["John Lennon", "音乐"]
 ---
 

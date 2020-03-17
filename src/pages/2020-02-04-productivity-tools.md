@@ -2,7 +2,7 @@
 path: post/productivity-tools
 title: 效率工具
 date: 2020-02-04
-hero: business-productivity-tools.png
+hero: ../images/business-productivity-tools.png
 tags: ["工具"]
 ---
 

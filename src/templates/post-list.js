@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
+import Img from 'gatsby-image';
 import Layout from './layout';
 
 export const query = graphql`
@@ -19,7 +20,13 @@ export const query = graphql`
         node {
           frontmatter {
             date(formatString: "YYYY-MM-DD")
-            hero
+            hero {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             path
             title
             tags
@@ -40,10 +47,9 @@ const PostList = ({ data, pageContext }) => {
       <div className="uk-width-1-1 uk-width-2-3@m uk-width-2-3@l uk-width-2-3@xl uk-align-center">
         {data.allMarkdownRemark.edges.map(({ node }, index) => (
           <div className="uk-card uk-background-default uk-margin-bottom uk-grid" key={index}>
-            <div className="uk-card-media-left uk-width-1-1 uk-width-1-3@m uk-width-1-3@l uk-width-1-3@xl uk-cover-container">
+            <div className="uk-card-media-left uk-width-1-1 uk-width-1-3@m uk-width-1-3@l uk-width-1-3@xl uk-cover-container" style={{ padding: `0` }}>
               <Link to={`/${node.frontmatter.path}`}>
-                <img src={`/images/${node.frontmatter.hero}`} alt={node.frontmatter.title} data-uk-cover />
-                <canvas></canvas>
+                <Img fluid={node.frontmatter.hero.childImageSharp.fluid} alt={node.frontmatter.title} />
               </Link>        
             </div>
             <div className="uk-width-1-1 uk-width-2-3@m uk-width-2-3@l uk-width-2-3@xl">

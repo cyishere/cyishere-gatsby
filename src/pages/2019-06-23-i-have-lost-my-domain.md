@@ -2,7 +2,7 @@
 path: post/i-have-lost-my-domain
 title: 我把域名搞丢了
 date: 2019-06-23
-hero: human-frustration.jpg
+hero: ../images/human-frustration.jpg
 tags: ["站务"]
 ---
 

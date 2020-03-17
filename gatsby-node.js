@@ -30,7 +30,6 @@ const createSinglePostPage = (createPage, posts) => {
             component: singlePostPageTemplate,
             context: {
                 pathName: node.frontmatter.path,
-                heroPath: node.frontmatter.hero,
                 prev: index === 0 ? null : posts[index - 1].node,
                 next: index === (posts.length - 1) ? null : posts[index + 1].node
             }
@@ -90,7 +89,6 @@ exports.createPages = async ({ graphql, actions }) => {
                             path
                             tags
                             title
-                            hero
                         }
                     }
                 }
