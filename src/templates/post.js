@@ -35,10 +35,16 @@ const PostPage = ({ data, pageContext }) => {
     const tags = post.frontmatter.tags;
     const { prev, next } = pageContext;
     const heroImgFluid = post.frontmatter.hero.childImageSharp.fluid;
+
     return (
         <Layout>
             <Helmet>
                 <title>{post.frontmatter.title} | {data.site.siteMetadata.title}</title>
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={post.frontmatter.title} />
+                <meta name="twitter:site" content="@cyishere" />
+                <meta name="twitter:image" content={heroImgFluid.src} />
+                <meta name="twitter:creator" content="@cyishere" />
             </Helmet>
             <div className="uk-width-1-1 uk-margin-bottom uk-text-center">
                 <Img fluid={heroImgFluid} alt={post.frontmatter.title} />

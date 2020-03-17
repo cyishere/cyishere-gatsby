@@ -6,7 +6,7 @@ $color-black-3: #333;
 $bg-color-grey: #e5f7f9;
 
 html {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 2;
     font-family: Georgia, serif;
     color: $global-text-color;
@@ -61,6 +61,12 @@ h2.uk-card-title {
     border: 1px solid #e6e6e6;
     font-size: 80%;
     border-radius: 3px;
+}
+
+blockquote {
+    border-left: 0.4rem solid hsla(291, 0%, 18%,0.1);
+    padding-left: 0.8rem;
+    color: #585858;
 }
 
 .gatsby-image-wrapper {

@@ -124,3 +124,5 @@ I think the right way to do anything is just to follow the documents exactly and
 
 - [Add ImageSharp as a field to MarkdownRemark nodes (not frontmatter)](https://stackoverflow.com/questions/54636627/add-imagesharp-as-a-field-to-markdownremark-nodes-not-frontmatter?answertab=votes#tab-top)
 - [Part 5: Adding Thumbnail Images to a Blog List](https://dennytek.com/blog/personal-site-with-gatsby-part-5)
+
+> Initial versions were developed from the same code base as Internet Explorer for Windows. Later versions diverged, particularly with the release of version 5 which included the cutting edge, fault-tolerant and highly standards-compliant Tasman > layout engine.
