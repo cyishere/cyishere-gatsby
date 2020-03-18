@@ -40,7 +40,7 @@ const PostsList = () => {
                         <div className="uk-child-width-expand" data-uk-grid key={index}>
                             <div className="uk-width-1-1  uk-width-1-4@s uk-width-1-4@m uk-width-1-3@l uk-width-1-3@xl">
                                 {node.frontmatter.tags.map((tag, index) => (
-                                    <span className="uk-label uk-label-success uk-margin-small-left" key={index}>{tag}</span>
+                                    <Link to={`/tags/${tag}`} className="uk-label uk-label-success uk-margin-small-left" key={index}>{tag}</Link>
                                 ))}
                             </div>
                             <div className="uk-width-1-1 uk-width-3-4@s uk-width-3-4@m uk-width-2-3@l uk-width-2-3@xl">

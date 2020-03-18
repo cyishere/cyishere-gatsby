@@ -3,7 +3,7 @@ path: post/100-days-of-gatsby
 title: "#100DaysOfGatsby Challenge"
 date: 2020-03-16
 hero: ../images/100daysofgatsby.png
-tags: ["learning-to-code", "gatsby"]
+tags: ["learning-to-code", "gatsby", "100DaysOfGatsby"]
 ---
 
 After months of learning, I finally decided to use [Gatsby](https://www.gatsbyjs.org/) to make my website instead of [NuxtJS](https://nuxtjs.org/). For now, I like [React](https://reactjs.org/) more than [Vue](https://vuejs.org/). I think maybe because I'm such a beginner of modern web development and React's docs are more friendly for beginner than Vue's (on my perspective).

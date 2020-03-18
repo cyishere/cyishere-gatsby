@@ -3,7 +3,7 @@ path: post/2020-03-17-gatsby-image
 title: "Auto-Optimize Images On MY Gatsby Site"
 date: 2020-03-17
 hero: ../images/gatsby-image.jpg
-tags: ["learning-to-code", "gatsby-image", "gatsby"]
+tags: ["learning-to-code", "gatsby-image", "gatsby", "100DaysOfGatsby"]
 ---
 
 ## #100DaysOfGatsby Challenge 3
@@ -33,8 +33,8 @@ I structured my code like this at first:
 And the frontmatter in markdown files like this:
 
 ```md
----
 <!-- content/posts/article1.md -->
+---
 title: This is the title of article1
 hero: pic-of-article1.jpg
 ---
@@ -109,8 +109,8 @@ I can't find the right solution for this until I restructured my code as same as
 ```
 
 ```md
----
 <!-- src/pages/article1.md -->
+---
 title: This is the title of article1
 hero: ../images/pic-of-article1.jpg
 ---

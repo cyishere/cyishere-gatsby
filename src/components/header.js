@@ -18,6 +18,9 @@ const Header = () => {
                             <li className="uk-text-uppercase">
                                 <Link to="/about" activeClassName="active">about</Link>
                             </li>
+                            <li className="uk-text-uppercase">
+                                <Link to="/links" activeClassName="active">links</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -36,6 +39,9 @@ const Header = () => {
                         </li>
                         <li className="uk-text-uppercase">
                             <Link to="/about" activeClassName="active">about</Link>
+                        </li>
+                        <li className="uk-text-uppercase">
+                            <Link to="/links" activeClassName="active">links</Link>
                         </li>
                     </ul>
                 </div>
