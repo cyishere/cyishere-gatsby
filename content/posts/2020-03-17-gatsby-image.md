@@ -6,6 +6,36 @@ hero: ../images/gatsby-image.jpg
 tags: ["learning-to-code", "gatsby-image", "gatsby", "100DaysOfGatsby"]
 ---
 
+> Update @ 2020-03-18: 
+>
+> I restructured again and put markdown files and images both under <code>./content/</code> folder. The <code>content/</code> folder is directly under the root. Just a minor change.
+
+```
+- content/
+  - posts/
+    - artilce1.md
+  - images/
+    - pic-of-article1.jpg
+- src/
+- static/
+```
+
+```
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'posts',
+        path: `${__dirname}/content/`
+      }
+    }
+  ]
+}
+```
+
+=== Here's the whole story ===
+
 ## #100DaysOfGatsby Challenge 3
 
 Today I followed [#100DaysOfGatsby Challenge 3](https://www.gatsbyjs.org/blog/100days/gatsby-image/) to optimize the images on my site. In the beginning, it drove me crazy.
