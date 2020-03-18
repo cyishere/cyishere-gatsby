@@ -25,19 +25,19 @@ const Links = ({ data }) => {
           <p>Here are some websites I found very cool and useful.</p>
           <ul>
             <li>
-              <p><a href="https://front-end-challenges.club/">Front-End Challenges Club</a></p>
+              <p><a href="https://front-end-challenges.club/" target="_blank" rel="noopener noreferrer">Front-End Challenges Club</a></p>
               <p>Quick, fun challenges and solutions to help you to master front-end development.</p>
             </li>
             <li>
-              <p><a href="https://piccalil.li/">Dang Spicy</a></p>
+              <p><a href="https://piccalil.li/" target="_blank" rel="noopener noreferrer">Dang Spicy</a></p>
               <p>tutorials and courses to level you up as a front⁠-⁠end developer and designer</p>
             </li>
             <li>
-              <p><a href="https://audio.trentwalton.com/">Audio from Trent Walton</a></p>
+              <p><a href="https://audio.trentwalton.com/" target="_blank" rel="noopener noreferrer">Audio from Trent Walton</a></p>
               <p>A little project, a online music player page.</p>
             </li>
             <li>
-              <p><a href="https://www.taniarascia.com/">Tania Rascia</a></p>
+              <p><a href="https://www.taniarascia.com/" target="_blank" rel="noopener noreferrer">Tania Rascia</a></p>
               <p>A full stack developer. Her personal weibsite is full of writing about modern Javascript, Node.js and development.</p>
             </li>
           </ul>
