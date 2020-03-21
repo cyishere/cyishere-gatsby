@@ -6,7 +6,11 @@ hero: ../images/gatsby-image.jpg
 tags: ["learning-to-code", "gatsby-image", "gatsby", "100DaysOfGatsby"]
 ---
 
-> Update @ 2020-03-18: 
+> **Update @ 2020-03-21:**
+>
+> Another thing: <code>gatsby-remark-images</code> can't support GIFs or SVGs. I use the <code>gatsby-remark-copy-linked-files</code> plugin to render those type files.
+
+> **Update @ 2020-03-18:**
 >
 > I restructured again and put markdown files and images both under <code>./content/</code> folder. The <code>content/</code> folder is directly under the root. Just a minor change.
 
@@ -20,7 +24,7 @@ tags: ["learning-to-code", "gatsby-image", "gatsby", "100DaysOfGatsby"]
 - static/
 ```
 
-```
+```js
 module.exports = {
   plugins: [
     {
@@ -72,7 +76,7 @@ hero: pic-of-article1.jpg
 
 The configures in <code>gatsby-config.js</code>:
 
-```
+```js
 module.exports = {
   plugins: [
     {
@@ -117,7 +121,7 @@ export const query = graphql`
 
 The <mark>error</mark> message showed up: 
 
-```
+```sh
 Field \"hero\" must not have a selection since type \"String\" has no subfields.
 ```
 

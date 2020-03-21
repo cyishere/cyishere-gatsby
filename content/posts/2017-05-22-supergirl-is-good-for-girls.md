@@ -16,5 +16,4 @@ tags: ["美剧", "超级英雄", "女性主义"]
 
 当然了，偶像剧自然也少不了盘靓条顺的男性角色来丰富画面。
 
-![Supergirl中的男性角色](../images/sq2.jpg)
-<p class="uk-text-small uk-text-muted">Supergirl中的男性角色</p>
+![Supergirl中的男性角色](../images/sq2.jpg "Supergirl中的男性角色")

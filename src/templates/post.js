@@ -49,20 +49,24 @@ const PostPage = ({ data, pageContext }) => {
         <meta name="twitter:image" content={metaContent} />
         <meta name="twitter:creator" content="@cyishere" />
       </Helmet>
-      <div className="uk-width-1-1 uk-margin-bottom uk-text-center">
-        {heroImg && (
+      <div className="uk-width-1-1 uk-margin-bottom uk-text-center uk-child-width-expand@m uk-grid-collapse" style={{ backgroundColor: `white`, paddingRight: `0` }} data-uk-grid>
+        <div>
+          <div className="uk-article uk-padding-large">
+            <h2 className="uk-article-title">
+              {post.frontmatter.title}
+            </h2>
+            <p className="uk-article-meta">@ {post.frontmatter.date}</p>
+          </div>
+        </div>
+        <div>
           <Img
             fluid={heroImg.childImageSharp.fluid}
             alt={post.frontmatter.title}
           />
-        )}
+        </div>
       </div>
       <div className="uk-width-1-2@xl uk-width-1-2@l uk-width-1-2@m uk-width-3-4 uk-align-center uk-margin-large-bottom">
         <div className="uk-article">
-          <h2 className="uk-article-title uk-margin-large">
-            {post.frontmatter.title}
-          </h2>
-          <p className="uk-article-meta">@ {post.frontmatter.date}</p>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
           <div className="uk-width-1-1 uk-margin-large-top">
             {tags.map((tag, index) => {

@@ -38,7 +38,7 @@ export const query = graphql`
 `;
 
 const PostList = ({ data, pageContext }) => {
-  const { currentPage, pagesNum } = pageContext;
+  const { currentPage, pagesNum } = pageContext
   return(
     <Layout>
       <Helmet>
