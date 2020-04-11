@@ -56,6 +56,21 @@ const Links = ({ data }) => {
               <p><a href="https://educationlinks.fyi/" target="_blank" rel="noopener noreferrer">Education Links</a></p>
               <p>The Coronavirus Pandemic has resulted in school closures in many countries around the globe, so here is a collection of links to help you and your kids to access loads of resources from around the web.</p>
             </li>
+            <li>
+              <p><a href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog/featured" target="_blank" rel="noopener noreferrer">Online Tutorials (YouTube Channel)</a></p>
+              <p>About cool CSS effects.</p>
+            </li>
+            <li>
+              <h4>Placeholders</h4>
+              <ul>
+                <li>
+                  <a href="https://picsum.photos" target="_blank" rel="noopener noreferrer">Lorem Picsum</a>
+                </li>
+                <li>
+                  <a href="https://placekitten.com/" target="_blank" rel="noopener noreferrer">Place Kitten</a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>

@@ -26,4 +26,4 @@ plugins: [
 ]
 ```
 
-And the "title" in the markdown syntax will automatically show as a caption. We can use the <code>.gatsby-resp-image-figcaption</code> to modify its styles.
+And the "title" in the markdown syntax will automatically show as a caption. We can use the <code>.gatsby-resp-image-figcaption</code> class to modify its styles.
